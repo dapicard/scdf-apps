@@ -1,0 +1,2 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+dapicard.stream.common.configuration.DomainPropertySourceLocator

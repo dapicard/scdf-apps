@@ -1,0 +1,69 @@
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+csv.schema:
+  columnSeparator: ';'
+  enclosingCharacter: NULL
+  escapeCharacter: '\'
+  nullValue: "NULL"
+  columns:
+    -
+      name: id
+      type: STRING
+    -
+      name: id_fantoir
+      type: STRING
+    -
+      name: numero
+      type: STRING
+    -
+      name: rep
+      type: STRING
+    -
+      name: nom_voie
+      type: STRING
+    -
+      name: code_postal
+      type: STRING
+    -
+      name: code_insee
+      type: NUMBER
+    -
+      name: nom_commune
+      type: STRING
+    -
+      name: code_insee_ancienne_commune
+      type: NUMBER
+    -
+      name: nom_ancienne_commune
+      type: STRING
+    -
+      name: x
+      type: NUMBER
+    -
+      name: "y"
+      type: NUMBER
+    -
+      name: lon
+      type: NUMBER
+    -
+      name: lat
+      type: NUMBER
+    -
+      name: alias
+      type: STRING
+    -
+      name: nom_ld
+      type: STRING
+    -
+      name: libelle_acheminement
+      type: STRING
+    -
+      name: nom_afnor
+      type: STRING
+    -
+      name: source_position
+      type: STRING
+    -
+      name: source_nom_voie
+      type: STRING

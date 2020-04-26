@@ -1,0 +1,29 @@
+{
+    "groups": [
+        {
+            "name": "domain",
+            "type": "dapicard.stream.common.configuration.model.DomainReference",
+            "sourceType": "dapicard.stream.common.configuration.model.DomainReference"
+        }
+    ],
+    "properties": [
+          {
+            "name": "domain.domain-name",
+            "type": "java.lang.String",
+            "description": "Domain model name (e.g. adresse)",
+            "sourceType": "dapicard.stream.common.configuration.model.DomainReference"
+          },
+          {
+            "name": "domain.domain-profile",
+            "type": "java.lang.String",
+            "description": "Domain model profile (e.g. ban, stands for Base Adresse Nationale)",
+            "sourceType": "dapicard.stream.common.configuration.model.DomainReference"
+          },
+          {
+            "name": "domain.domain-version",
+            "type": "java.lang.String",
+            "description": "Domain model version",
+            "sourceType": "dapicard.stream.common.configuration.model.DomainReference"
+          }
+    ]
+}
